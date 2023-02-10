@@ -1,0 +1,98 @@
+
+:root {
+  --main-color:#064636;
+}
+
+
+* body {
+    text-align:center;
+    display:grid; 
+    grid-template-rows: auto 1fr auto; 
+    min-height:100vh;
+}
+
+
+
+
+header {
+    padding:15px;
+    background-color: var(--main-color);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+   width: 100%;
+}
+.nav-top {
+    padding: 10px;
+}
+.nav-top a{
+    color: #fff;
+    font-size: 22px;
+}
+
+.nav-top a img {
+    width: 60px;
+ }
+/* End Header Styling */
+
+
+
+/* Start Main Styling  */
+
+#mainwrapper{
+    background-color: rgba(0, 0, 0, 0.4);;
+    height: inherit;
+    width: 400%;
+  }
+main {
+    height: 100%;
+    background-image: url('../images/slide-bg-small.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    
+   text-align:center;
+    display:grid; 
+    grid-template-rows: auto 1fr auto; 
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+    min-height:67vh;;
+}
+main .card {
+    border: 1px solid #000000;
+    margin-top: 40px;
+    padding: 23px;
+    background-color: rgba(255, 255, 255, 0.364);
+}
+/* End Main Styling  */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
+    background-color: #064636 !important;
+    box-shadow: #000000 !important;
+    border-color: #000000;
+}
+
+
+footer{
+    
+    background-color: #ffffff;
+}
+
+
